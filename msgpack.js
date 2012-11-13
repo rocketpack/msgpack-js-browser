@@ -4,7 +4,7 @@
 )(function () {
 "use strict";
 
-var exports = {};
+var exports = module.exports = {};
 
 exports.inspect = inspect;
 function inspect(buffer) {
